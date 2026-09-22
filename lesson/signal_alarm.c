@@ -1,6 +1,7 @@
 #include <signal.h>
 #include <stdio.h>
 #include <unistd.h>
+#include <stdlib.h>
 
 void my_alarm(int sig) {
   for (int i = 0; i < 5; i++)
